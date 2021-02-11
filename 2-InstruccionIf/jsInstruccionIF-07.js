@@ -1,8 +1,17 @@
+/*Desumma Gian Franco*/
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
-	
+  
+	var edad;
+    var estadoCivil = document.getElementById("estadoCivil");
+  
+  estadoCivil = estadoCivil.value;
+  edad = txtIdEdad.value;
+  edad = parseInt(edad);
 
-
-}//FIN DE LA FUNCIÓN
+  if(edad < 18 && estadoCivil != "Soltero" )
+  {
+   alert("Es muy pequeño para NO ser soltero");
+  }
+}

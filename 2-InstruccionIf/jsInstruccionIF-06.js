@@ -1,8 +1,27 @@
+/*Desumma Gian Franco */
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+ var edad;
+
+ edad = txtIdEdad.value;
+ edad = parseInt(edad);
+
+ if (edad > 17)
+ {
+	 alert("Es mayor de edad");
+
+ } else
+   {
+	if(edad > 12 && edad <18)
+	{
+	   alert("Es adolescente");
+	}
+   } 
+   if(edad < 13)
+   {
+	   alert("Es un niño");
+   }
 
 
-
-}//FIN DE LA FUNCIÓN
+}
